@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25849",
 "files": {
-	"\/.bowerrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.bowerrc",
-		"oF": 0
-		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -4913,10 +4907,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/functions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/js\/app.js": {
@@ -4989,11 +5001,46 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "css\/app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/scss\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/SublimeProject.sublime-project": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SublimeProject.sublime-project",
+		"oF": 0
+		},
+	"\/SublimeProject.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/SublimeProject.sublime-workspace",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -5002,7 +5049,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 522088294,
-	"displayValue": "Foundation6",
+	"displayValue": "SkinnerBase",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-chloe"
 	},

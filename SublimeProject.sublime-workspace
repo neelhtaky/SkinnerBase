@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"course",
+				"course_id"
+			],
+			[
+				"is_si",
+				"is_singular"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kat/Local Sites/katskinnerart/app/public/wp-content/themes/SkinnerBase"
+	],
+	"file_history":
+	[
+		"/Users/kat/Local Sites/katskinnerart/app/public/wp-content/themes/SkinnerBase/index.html",
+		"/Users/kat/Sites/website/wp-content/themes/SkinnerBase/index.html",
+		"/Users/kat/Sites/website/wp-content/themes/SkinnerBase/scss/style.scss",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerArt/scss/style.scss",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerArt/index.php",
+		"/Users/kat/Sites/website/wp-content/themes/SkinnerBase/index.php",
+		"/Users/kat/Downloads/foundation-sites-template-master/README.md",
+		"/Users/kat/Downloads/foundation-sites-template-master/index.html",
+		"/Users/kat/Downloads/HoverEffectIdeas/css/set1.css",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerArt/partials/content-containeropen.php",
+		"/Users/kat/Downloads/ihover-gh-pages/src/ihover.css",
+		"/Users/kat/Downloads/ihover-gh-pages/README.md",
+		"/Users/kat/Downloads/pro/framework/views/ethos/content.php",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerArt/header.php",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerArt/front-page.php",
+		"/Users/kat/Downloads/pro/framework/views/global/_script-isotope-portfolio.php",
+		"/Users/kat/Downloads/pro/framework/views/global/_portfolio.php",
+		"/Users/kat/Downloads/pro/single.php",
+		"/Users/kat/Downloads/pro/framework/views/integrity/content-portfolio.php",
+		"/Users/kat/Downloads/pro/template-layout-portfolio.php",
+		"/Users/kat/Downloads/pro/single-x-portfolio.php",
+		"/Users/kat/Sites/website/wp-content/themes/Zurb/scss/_settings.scss",
+		"/Users/kat/Sites/website/wp-content/themes/Zurb/scss/app.scss",
+		"/Users/kat/Sites/website/wp-content/themes/Zurb/index.html",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerMeemo/scss/_mixins.scss",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerMeemo/functions.php",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerMeemo/header.php",
+		"/Users/kat/Sites/website/wp-content/themes/KatSkinnerMeemo/scss/_settings.scss",
+		"/private/etc/apache2/extra/httpd-userdir.conf",
+		"/Users/kat/Dropbox/Stories/Timeline/aeontimeline_data.js",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/kat/Downloads/xpro/style.css",
+		"/Users/kat/Downloads/apple_health_export/export.xml",
+		"/Users/kat/Desktop/weight_apple_data.xml",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/scss/_mixins.scss",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/scss/style.scss",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/index.php",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/functions.php",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/sidebar-right.php",
+		"/Users/kat/Sites/website/wp-content/plugins/woothemes-sensei/widgets/widget-woothemes-sensei-lesson-component.php",
+		"/Users/kat/Sites/website/wp-content/plugins/woothemes-sensei/templates/single-course/course-lessons.php",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/page.php",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/single.php",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/header.php",
+		"/Users/kat/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kat/Sites/website/wp-content/themes/Meemo/partials/content-containeropen.php",
+		"/Users/kat/Sites/website/wp-content/plugins/woothemes-sensei/templates/loop-lesson.php",
+		"/Users/kat/Sites/quickneed/wp-login.php",
+		"/Users/kat/Sites/quickneed/wp-settings.php",
+		"/Users/kat/Sites/quickneed/wp-content/themes/Meemo/functions.php",
+		"/Users/kat/Sites/quickneed/wp-config.php",
+		"/Users/kat/Downloads/inskinny_quickneed-2.sql",
+		"/Users/kat/Downloads/inskinny_quickneed.sql",
+		"/usr/local/Cellar/mysql/5.6.27/my.cnf",
+		"/Users/kat/Desktop/Kats-MBP.fritz.box.err",
+		"/usr/local/var/mysql/Kats-MBP.fritz.box.pid",
+		"/Users/kat/Desktop/my.cnf",
+		"/Users/kat/Sites/phpmyadmin/config",
+		"/etc/apache2/httpd.conf"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".info",
+			"h3",
+			".ih-item.square",
+			".ih-item",
+			"h3",
+			"effect4",
+			"@import",
+			"header",
+			"weight",
+			"font",
+			"img",
+			"thumb",
+			"course",
+			"excerpt",
+			"author",
+			"vert",
+			"$more",
+			"lesson",
+			"body-font-color",
+			"sidebar",
+			"shop",
+			"INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES (31482, 'tadv_settings', 'a:6",
+			"INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value",
+			"'INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".h-entry-cover",
+			".type-x-portfolio.a",
+			"type-x-portfolio"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SublimeProject.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"style",
+				"scss/style.scss"
+			],
+			[
+				"funct",
+				"functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 167.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,15 @@
+/*
+Theme Name: SkinnerBase
+Theme URI: www.katskinner.com
+Author: Kat Skinner
+Author URI: http://katskinner.com
+Description: A simple but gorgeous theme with a focus on content.
+Version: 0.1
+License: Attribution-NonCommercial-NoDerivs. CC BY-NC-ND.
+License URI: http://creativecommons.org/licenses/
+Tags: white, light, right-sidebar, flexible-width, custom-menu, editor-style, featured-images, sticky-post, post-formats
+*/
+
+@import "app.scss";
+
+@include foundation-xy-grid-classes;
