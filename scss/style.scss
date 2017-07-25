@@ -11,5 +11,281 @@ Tags: white, light, right-sidebar, flexible-width, custom-menu, editor-style, fe
 */
 
 @import "app.scss";
+@import "mixins";
 
 @include foundation-xy-grid-classes;
+/******************************************************************
+TYPOGRAPHY
+******************************************************************/
+h1, h2, h3, h4, h5, h6{
+	//font-family: $comfortaa;
+}
+h2{
+	text-transform: uppercase;
+}
+p{
+	font-family: $comfortaa;
+}
+/******************************************************************
+Links
+******************************************************************/
+
+a[href*="quickneed"], a[href*="wordpress"], a[href*="katskinner"], a[href^="/"], a[href^="#"], a[href^="mailto:"], a[href^="javascript:"] {display: inline;}
+a[href*="quickneed"]:after, a[href*="wordpress"]:after,  a[href*="katskinner"]:after, a[href^="/"]:after, a[href^="#"]:after, a[href^="mailto:"]:after, a[href^="javascript:"]:after {content: none;}
+
+.postmetadata{font-size:0.9rem;margin-bottom:0.5rem;}
+
+
+time, .entry_content .author, .entry_content a.comments-link, .entry_content .tags, .entry_content .category, span.course-category, span.posted_in, span.tags a, .course-container .course-author, .course-container .sensei-course-participants, .course-container .sensei-course-meta span.course-lesson-count {
+
+	color: lighten($body-font-color,60%);
+	display: inline;
+	font-size:0.8rem;
+	font-weight: normal;
+	font-style: italic;
+	&:before{
+		-webkit-font-smoothing: antialiased;
+		font: normal 16px/1 $fontawesome;
+		margin-right:0.3rem;
+	}
+}
+// a[href]:after {
+// 	content: '\f08e';
+// 	display: inline-block;
+// 	-webkit-font-smoothing: antialiased;
+// 	font: normal 10px/1 'FontAwesome';
+// 	vertical-align: top;
+// }
+
+time {
+	&:before{content: '\f017';}
+}
+/******************************************************************
+ICONS
+******************************************************************/
+.entry_content .author, .course-container .course-author{
+	&:before{content: '\f182';}
+}
+
+.entry_content a.comments-link{
+	&:before{content:'\f075';}
+}
+.entry_content .tags{
+	&:before{content:'\f02c';}
+}
+span.tags{
+	color: $body-font-color;
+	&::before{
+		content: '\f02c';
+	}
+}
+.entry_content .category {
+	&:before{content:'\f07c';}
+	a{
+		color: lighten($body-font-color, 60%);
+		&:hover{color:darken($primary-color, 20%);}
+	}
+}
+.entry_content a:hover{color:darken($primary-color, 20%);}
+
+span.course-category, span.posted_in{
+	color: lighten($body-font-color,60%) !important;
+	&::before{
+		content: '\f07c';
+	}
+}
+
+/******************************************************************
+HEADER
+******************************************************************/
+.header_menu{
+	ul{
+		list-style:none;
+		li{
+			float:left;
+			margin-top: 1.2rem;
+			margin-right:1rem;
+			a{
+				color:$body-font-color;
+				text-transform:uppercase;
+				&:hover{
+					color:darken($primary-color, 20%);
+				}
+			}
+
+		}
+		li.current-menu-item a, li.current_page_item a {color:$primary-color; font-style:italic;}
+	}
+}
+.site_title h1 a, .site_title h4 a{
+	font-family: $greatvibes;
+	color: $body-font-color-grey;
+	font-size: 4rem;
+}
+
+/******************************************************************
+BLOG ARCHIVE
+******************************************************************/
+.post_title, .post_title a{
+	font-size: 1.8srem;
+	color: $body-font-color;
+	line-height:1.4;
+}
+#schema_desc{display:none;}
+#schema_datePublished{display:none;}
+// .read_more{
+// 	padding: 0.3rem;
+// 	background:darken($primary-color, 10%);
+// 	border: 1px dashed darken($primary-color, 20%);
+// 	text-align: center;
+// 	transition: background-color 0.5s ease;
+// 	box-shadow: 0 0 0 4px darken($primary-color, 10%), 1px 1px 1px 1px grey;
+// 	cursor:pointer;
+// 	&:hover{
+// 		border: 1px dashed darken($primary-color, 40%);
+// 		background:darken($primary-color, 20%);
+// 		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px grey;
+// 		color:darken($primary-color,20%);
+// 	}
+// 	a{
+// 		color:white;
+// 		text-transform:uppercase;
+// 		font-family: $header-font-family;
+// 	}
+// }
+.read_more{
+	padding: 0.3rem;
+	background: $primary-color;
+	border: 1px dashed white;
+	transition: background-color 0.5s ease;
+	box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color,20%);
+	cursor:pointer;
+	&:hover{
+		border: 1px dashed $primary-color;
+		background:darken($primary-color, 20%);
+		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px darken($primary-color,40%);
+		color:darken($primary-color,20%);
+	}
+	a{
+		color:$body-font-color;
+		text-transform:uppercase;
+		font-family: $header-font-family;
+	}
+}
+
+.entries{
+	padding-bottom:3rem;
+}
+.single_content, .entry_content{
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+ul.pagination{margin-top:2rem;}
+/******************************************************************
+SIDEBAR
+******************************************************************/
+#sidebar{
+	p, a, li{
+		font-size:0.85rem;
+	}
+	h3{font-size:1.1rem;}
+	.widget{
+		margin-bottom:2rem;
+		padding: 1rem;
+		border: 1px solid $primary-color;
+	}
+	.widget-title{
+		text-transform: uppercase;
+		background: $primary-color;
+		border-top: 1px double white;
+		border-bottom: 1px double white;
+		color:$body-font-color-grey;
+		padding: 0.5rem 0 0.3rem 0;
+		text-align: center;
+		transition: background-color 0.5s ease;
+		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
+		box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
+	}
+	#searchform{
+		input#s{@include grid-column(11);}
+		.screen-reader-text{
+			display:none;
+		}
+		.search-submit, #searchsubmit, {
+			background:$primary-color;
+			margin:-0.01rem 0;
+			padding:0.62rem;
+			border:none;
+			color:white;
+			font-size: 0.9rem;
+			// @include grid-column(5);
+		}
+	}
+}
+#sidebar .jetpack-display-remote-posts {
+	h4 a{font-size:1.3rem;}
+	.read_more{margin:0.5rem 0 1rem 0;}
+	}
+#sidebar .postauthor{min-height:225px;}
+#sidebar .author_image {padding-left:0 !important; }
+/******************************************************************
+FOOTER
+******************************************************************/
+#footer_wrap{
+	font-size:1rem;
+}
+#footer_widgets{
+	background: $primary-color;
+	padding: 1rem 0;
+	.widget-title{
+
+		font-size:1.2rem;
+		text-transform: uppercase;
+		background: white;
+		// border:1px solid darken($primary-color,20%);
+		border-top: 1px double $primary-color;
+		border-bottom: 1px double $primary-color;
+		color:$body-font-color-grey;
+		padding: 0.5rem 0 0.3rem 0;
+		text-align: center;
+		transition: background-color 0.5s ease;
+		box-shadow: 0 0 0 4px white, 1px 1px 1px 1px darken($primary-color, 20%);
+
+		// border-top: 1px double white;
+		// border-bottom: 1px double white;
+	}
+	a{
+		// color:white;
+	}
+}
+
+#footer_meta{
+	//background: darken($primary-color, 20%);
+	padding:2rem 0 0 0;
+	//color:white;
+	a{
+		color:$body-font-color;
+	}
+	p, ul, a{
+		font-size:0.9rem;
+	}
+}
+.footer_menu{
+	ul{
+		list-style:none;
+		li{
+			float:left;
+			margin-top: -0.5rem;
+			margin-right:1rem;
+			a{
+				color:$body-font-color;
+				text-transform:uppercase;
+				&:hover{
+					color:darken($primary-color, 20%);
+				}
+			}
+
+		}
+		li.current-menu-item a, li.current_page_item a {color:$primary-color; font-style:italic;}
+	}
+}

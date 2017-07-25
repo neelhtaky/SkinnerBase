@@ -5691,6 +5691,31 @@ a.thumbnail {
 .long-delay {
   animation-delay: 700ms !important; }
 
+/******************************************************************
+TYPOGRAPHY
+******************************************************************/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("bower_components/font-awesome/fonts/fontawesome-webfont.eot");
+  src: url("bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("bower_components/font-awesome/fonts/fontawesome-webfont.woff") format("woff"), url("bower_components/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype"), url("bower_components/font-awesome/fonts/fontawesome-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("bower_components/google-fonts/ofl/ebgaramond/EBGaramond-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url("bower_components/google-fonts/ofl/greatvibes/GreatVibes-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("bower_components/google-fonts/ofl/comfortaa/Comfortaa-Regular.ttf") format("truetype"); }
+
+/******************************************************************
+COLOURS
+******************************************************************/
 .grid-container {
   max-width: 75rem;
   margin: 0 auto; }
@@ -6926,3 +6951,239 @@ a.thumbnail {
 @media print, screen and (min-width: 64em) {
   .cell .grid-y.large-grid-frame {
     height: 100%; } }
+
+/******************************************************************
+TYPOGRAPHY
+******************************************************************/
+h2 {
+  text-transform: uppercase; }
+
+p {
+  font-family: "Comfortaa"; }
+
+/******************************************************************
+Links
+******************************************************************/
+a[href*="quickneed"], a[href*="wordpress"], a[href*="katskinner"], a[href^="/"], a[href^="#"], a[href^="mailto:"], a[href^="javascript:"] {
+  display: inline; }
+
+a[href*="quickneed"]:after, a[href*="wordpress"]:after, a[href*="katskinner"]:after, a[href^="/"]:after, a[href^="#"]:after, a[href^="mailto:"]:after, a[href^="javascript:"]:after {
+  content: none; }
+
+.postmetadata {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem; }
+
+time, .entry_content .author, .entry_content a.comments-link, .entry_content .tags, .entry_content .category, span.course-category, span.posted_in, span.tags a, .course-container .course-author, .course-container .sensei-course-participants, .course-container .sensei-course-meta span.course-lesson-count {
+  color: #a3a3a3;
+  display: inline;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-style: italic; }
+  time:before, .entry_content .author:before, .entry_content a.comments-link:before, .entry_content .tags:before, .entry_content .category:before, span.course-category:before, span.posted_in:before, span.tags a:before, .course-container .course-author:before, .course-container .sensei-course-participants:before, .course-container .sensei-course-meta span.course-lesson-count:before {
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 "FontAwesome";
+    margin-right: 0.3rem; }
+
+time:before {
+  content: '\f017'; }
+
+/******************************************************************
+ICONS
+******************************************************************/
+.entry_content .author:before, .course-container .course-author:before {
+  content: '\f182'; }
+
+.entry_content a.comments-link:before {
+  content: '\f075'; }
+
+.entry_content .tags:before {
+  content: '\f02c'; }
+
+span.tags {
+  color: #0a0a0a; }
+  span.tags::before {
+    content: '\f02c'; }
+
+.entry_content .category:before {
+  content: '\f07c'; }
+
+.entry_content .category a {
+  color: #a3a3a3; }
+  .entry_content .category a:hover {
+    color: #eea49c; }
+
+.entry_content a:hover {
+  color: #eea49c; }
+
+span.course-category, span.posted_in {
+  color: #a3a3a3 !important; }
+  span.course-category::before, span.posted_in::before {
+    content: '\f07c'; }
+
+/******************************************************************
+HEADER
+******************************************************************/
+.header_menu ul {
+  list-style: none; }
+  .header_menu ul li {
+    float: left;
+    margin-top: 1.2rem;
+    margin-right: 1rem; }
+    .header_menu ul li a {
+      color: #0a0a0a;
+      text-transform: uppercase; }
+      .header_menu ul li a:hover {
+        color: #eea49c; }
+  .header_menu ul li.current-menu-item a, .header_menu ul li.current_page_item a {
+    color: #fdf4f3;
+    font-style: italic; }
+
+.site_title h1 a, .site_title h4 a {
+  font-family: "GreatVibes";
+  color: #444;
+  font-size: 4rem; }
+
+/******************************************************************
+BLOG ARCHIVE
+******************************************************************/
+.post_title, .post_title a {
+  font-size: 1.8srem;
+  color: #0a0a0a;
+  line-height: 1.4; }
+
+#schema_desc {
+  display: none; }
+
+#schema_datePublished {
+  display: none; }
+
+.read_more {
+  padding: 0.3rem;
+  background: #fdf4f3;
+  border: 1px dashed white;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 0 0 4px #fdf4f3, 1px 1px 1px 1px #eea49c;
+  cursor: pointer; }
+  .read_more:hover {
+    border: 1px dashed #fdf4f3;
+    background: #eea49c;
+    box-shadow: 0 0 0 4px #eea49c, 1px 1px 1px 1px #e05444;
+    color: #eea49c; }
+  .read_more a {
+    color: #0a0a0a;
+    text-transform: uppercase;
+    font-family: "EB Garamond"; }
+
+.entries {
+  padding-bottom: 3rem; }
+
+.single_content, .entry_content {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word; }
+
+ul.pagination {
+  margin-top: 2rem; }
+
+/******************************************************************
+SIDEBAR
+******************************************************************/
+#sidebar p, #sidebar a, #sidebar li {
+  font-size: 0.85rem; }
+
+#sidebar h3 {
+  font-size: 1.1rem; }
+
+#sidebar .widget {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #fdf4f3; }
+
+#sidebar .widget-title {
+  text-transform: uppercase;
+  background: #fdf4f3;
+  border-top: 1px double white;
+  border-bottom: 1px double white;
+  color: #444;
+  padding: 0.5rem 0 0.3rem 0;
+  text-align: center;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 0 0 4px #fdf4f3, 1px 1px 1px 1px #eea49c; }
+
+#sidebar #searchform input#s {
+  width: 91.6666666667%;
+  float: left;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem; }
+  @media print, screen and (min-width: 40em) {
+    #sidebar #searchform input#s {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; } }
+  #sidebar #searchform input#s:last-child:not(:first-child) {
+    float: right; }
+
+#sidebar #searchform .screen-reader-text {
+  display: none; }
+
+#sidebar #searchform .search-submit, #sidebar #searchform #searchsubmit {
+  background: #fdf4f3;
+  margin: -0.01rem 0;
+  padding: 0.62rem;
+  border: none;
+  color: white;
+  font-size: 0.9rem; }
+
+#sidebar .jetpack-display-remote-posts h4 a {
+  font-size: 1.3rem; }
+
+#sidebar .jetpack-display-remote-posts .read_more {
+  margin: 0.5rem 0 1rem 0; }
+
+#sidebar .postauthor {
+  min-height: 225px; }
+
+#sidebar .author_image {
+  padding-left: 0 !important; }
+
+/******************************************************************
+FOOTER
+******************************************************************/
+#footer_wrap {
+  font-size: 1rem; }
+
+#footer_widgets {
+  background: #fdf4f3;
+  padding: 1rem 0; }
+  #footer_widgets .widget-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: white;
+    border-top: 1px double #fdf4f3;
+    border-bottom: 1px double #fdf4f3;
+    color: #444;
+    padding: 0.5rem 0 0.3rem 0;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 0 0 4px white, 1px 1px 1px 1px #eea49c; }
+
+#footer_meta {
+  padding: 2rem 0 0 0; }
+  #footer_meta a {
+    color: #0a0a0a; }
+  #footer_meta p, #footer_meta ul, #footer_meta a {
+    font-size: 0.9rem; }
+
+.footer_menu ul {
+  list-style: none; }
+  .footer_menu ul li {
+    float: left;
+    margin-top: -0.5rem;
+    margin-right: 1rem; }
+    .footer_menu ul li a {
+      color: #0a0a0a;
+      text-transform: uppercase; }
+      .footer_menu ul li a:hover {
+        color: #eea49c; }
+  .footer_menu ul li.current-menu-item a, .footer_menu ul li.current_page_item a {
+    color: #fdf4f3;
+    font-style: italic; }
