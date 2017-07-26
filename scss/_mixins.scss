@@ -2,10 +2,11 @@
 TYPOGRAPHY
 ******************************************************************/
 $fontawesome:		"FontAwesome";
-
-$header-font-family: "EB Garamond";
+$ebgaramond: 		"EBGaramond";
 $greatvibes: 		"GreatVibes";
 $comfortaa: 		"Comfortaa";
+$copse: 			"Copse";
+$muli: 			"Muli";
 @font-face {
     font-family: 'FontAwesome';
     src: url('bower_components/font-awesome/fonts/fontawesome-webfont.eot');
@@ -28,12 +29,19 @@ $comfortaa: 		"Comfortaa";
 	font-family: 'Comfortaa';
 	src: url('bower_components/google-fonts/ofl/comfortaa/Comfortaa-Regular.ttf') format('truetype');
 }
-
+@font-face{
+	font-family: 'Copse';
+	src: url('bower_components/google-fonts/ofl/copse/Copse-Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Muli';
+	src: url('bower_components/google-fonts/ofl/muli/Muli-Regular.ttf') format('truetype');
+}
 /******************************************************************
 COLOURS
 ******************************************************************/
-$primary-color: #fdf4f3; //is light pink
-$secondary-color:#e39f94; //is gold
+$primary-color: #f9e0dd; //is light pink
+$secondary-color:#ea9186; //is gold
 
 $grey-color: #333;
 

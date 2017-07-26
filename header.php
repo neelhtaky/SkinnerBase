@@ -41,7 +41,7 @@
   <body <?php body_class(''); ?> >
 
 <div class="grid-container" id="header_title">
-  	<div class="grid-x grid-padding-x">
+  	<div id="header_area" class="grid-x grid-padding-x">
 
   	<div class="header_menu small-4 cell">
 		<ul class="menu">

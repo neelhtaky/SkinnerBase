@@ -17,20 +17,28 @@ Tags: white, light, right-sidebar, flexible-width, custom-menu, editor-style, fe
 /******************************************************************
 TYPOGRAPHY
 ******************************************************************/
-h1, h2, h3, h4, h5, h6{
-	//font-family: $comfortaa;
-}
+a{
+		color:$secondary-color;
+		&:hover{
+			color:darken($secondary-color, 10%);
+		}
+	}
 h2{
+	// text-align: center;
 	text-transform: uppercase;
+	font-size:1.9rem;
+	letter-spacing: 0px;
+    line-height: 1.4;
+    text-transform: uppercase;
 }
 p{
-	font-family: $comfortaa;
+
 }
 /******************************************************************
 Links
 ******************************************************************/
 
-a[href*="quickneed"], a[href*="wordpress"], a[href*="katskinner"], a[href^="/"], a[href^="#"], a[href^="mailto:"], a[href^="javascript:"] {display: inline;}
+a[href*="katskinner"], a[href*="wordpress"], a[href*="katskinner"], a[href^="/"], a[href^="#"], a[href^="mailto:"], a[href^="javascript:"] {display: inline;}
 a[href*="quickneed"]:after, a[href*="wordpress"]:after,  a[href*="katskinner"]:after, a[href^="/"]:after, a[href^="#"]:after, a[href^="mailto:"]:after, a[href^="javascript:"]:after {content: none;}
 
 .postmetadata{font-size:0.9rem;margin-bottom:0.5rem;}
@@ -63,6 +71,8 @@ time {
 /******************************************************************
 ICONS
 ******************************************************************/
+.byline{
+}
 .entry_content .author, .course-container .course-author{
 	&:before{content: '\f182';}
 }
@@ -86,7 +96,6 @@ span.tags{
 		&:hover{color:darken($primary-color, 20%);}
 	}
 }
-.entry_content a:hover{color:darken($primary-color, 20%);}
 
 span.course-category, span.posted_in{
 	color: lighten($body-font-color,60%) !important;
@@ -95,9 +104,162 @@ span.course-category, span.posted_in{
 	}
 }
 
+
+/******************************************************************
+IMAGES
+******************************************************************/
+.alignleft, img.alignleft {
+	margin-right: 1.5rem;
+	display: inline;
+	float: left;
+	max-width: 100%;
+	}
+.alignright, img.alignright {
+	margin-left: 1.5rem;
+	display: inline;
+	float: right;
+	max-width: 100%;
+	}
+.aligncenter, img.aligncenter, .alignnone, img.alignnone {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	max-width: 100%;
+	}
+
+.wp-caption img:hover ~ .wp-caption-text {
+}
+.gallery {
+	margin: 0 auto;
+}
+.gallery-columns-2 {
+ -webkit-column-count: 2;
+ -moz-column-count: 2;
+ column-count: 2;
+}
+.gallery-columns-3 {
+ -webkit-column-count: 3;
+ -moz-column-count: 3;
+ column-count: 3;
+}
+.gallery-columns-4 {
+ -webkit-column-count: 4;
+ -moz-column-count: 4;
+ column-count: 4;
+}
+.gallery-columns-5 {
+ -webkit-column-count: 5;
+ -moz-column-count: 5;
+ column-count: 5;
+}
+.gallery-columns-6 {
+ -webkit-column-count: 6;
+ -moz-column-count: 6;
+ column-count: 6;
+}
+.gallery-columns-7 {
+ -webkit-column-count: 7;
+ -moz-column-count: 7;
+ column-count: 7;
+}
+.gallery-columns-8 {
+ -webkit-column-count: 8;
+ -moz-column-count: 8;
+ column-count: 8;
+}
+.gallery-columns-9 {
+ -webkit-column-count: 9;
+ -moz-column-count: 9;
+ column-count: 9;
+}
+.gallery-item {
+ display: inline-block;
+ text-align: center;
+ vertical-align: top;
+ width: 100%;
+ margin: 0 0 0.5em;
+}
+
+figure {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+	background: $primary-color;
+	cursor: pointer;
+}
+
+figure figcaption.wp-caption-text::before,
+figure figcaption.wp-caption-text::after {
+	pointer-events: none;
+}
+
+figure.gallery-item, figure {
+	background: -webkit-linear-gradient(-45deg, $secondary-color 0%, darken($primary-color,5%) 100%);
+	background: linear-gradient(-45deg, $secondary-color 0%,darken($primary-color,5%) 100%);
+}
+
+figure.gallery-item img,
+figure.gallery-item figcaption.wp-caption-text, figure img, figure figcaption.wp-caption-text {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.gallery-item:hover img, figure:hover img {
+	opacity: 0.1;
+	-webkit-transform: scale3d(1.5,1.5,1);
+	transform: scale3d(1.5,1.5,1);
+}
+
+figure figcaption.wp-caption-text {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family:$copse;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 30%;
+	padding: 30px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	font-size:0.9rem;
+	opacity: 0;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+}
+
+figure.gallery-item figcaption.wp-caption-text {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family:$copse;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 20px;
+	padding: 30px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	font-size:0.9rem;
+	opacity: 0;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+}
+figure.gallery-item:hover .wp-caption-text, figure:hover .wp-caption-text {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
 /******************************************************************
 HEADER
 ******************************************************************/
+#header_area{padding-bottom:2rem;}
 .header_menu{
 	ul{
 		list-style:none;
@@ -114,7 +276,10 @@ HEADER
 			}
 
 		}
-		li.current-menu-item a, li.current_page_item a {color:$primary-color; font-style:italic;}
+		li.current-menu-item a, li.current_page_item a {
+			border-top: 2px double $primary-color;
+			border-bottom: 2px double $primary-color;
+		}
 	}
 }
 .site_title h1 a, .site_title h4 a{
@@ -130,72 +295,213 @@ BLOG ARCHIVE
 	font-size: 1.8srem;
 	color: $body-font-color;
 	line-height:1.4;
+	&:hover{
+		color:$secondary-color;
+	}
 }
 #schema_desc{display:none;}
 #schema_datePublished{display:none;}
-// .read_more{
-// 	padding: 0.3rem;
-// 	background:darken($primary-color, 10%);
-// 	border: 1px dashed darken($primary-color, 20%);
-// 	text-align: center;
-// 	transition: background-color 0.5s ease;
-// 	box-shadow: 0 0 0 4px darken($primary-color, 10%), 1px 1px 1px 1px grey;
-// 	cursor:pointer;
-// 	&:hover{
-// 		border: 1px dashed darken($primary-color, 40%);
-// 		background:darken($primary-color, 20%);
-// 		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px grey;
-// 		color:darken($primary-color,20%);
-// 	}
-// 	a{
-// 		color:white;
-// 		text-transform:uppercase;
-// 		font-family: $header-font-family;
-// 	}
-// }
 .read_more{
+	width:250px;
+	margin:0 auto;
 	padding: 0.3rem;
-	background: $primary-color;
-	border: 1px dashed white;
+	background:$primary-color;
+	border-top: 1px double white;
+	border-bottom: 1px double white;
 	transition: background-color 0.5s ease;
 	box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color,20%);
 	cursor:pointer;
+	text-align: center;
+
 	&:hover{
-		border: 1px dashed $primary-color;
+		border: 1px double $primary-color;
 		background:darken($primary-color, 20%);
 		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px darken($primary-color,40%);
-		color:darken($primary-color,20%);
+		color:$body-font-color;
 	}
 	a{
-		color:$body-font-color;
+		color: $body-font-color;
 		text-transform:uppercase;
-		font-family: $header-font-family;
+		font-family: $copse;
+		&:hover{
+			color: $body-font-color;
+		}
 	}
 }
 
 .entries{
-	padding-bottom:3rem;
+	padding-bottom:5rem;
 }
 .single_content, .entry_content{
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
 }
-ul.pagination{margin-top:2rem;}
+ul.pagination{
+	margin-top:2rem;
+li{
+	padding: 0.2rem;
+	margin-right: 0.2rem;
+	background:$primary-color;
+
+		a:hover, &:hover {
+			background: darken($primary-color, 20%) !important;
+			color: $body-font-color;
+		}
+	}
+	.current {
+		background: darken($primary-color, 20%);
+		// background:$primary-color;
+		// border-top: 2px double white;
+		// border-bottom: 2px double white;
+		padding:0.2rem;
+		// transition: background-color 0.5s ease;
+		// box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px $primary-color;
+	}
+}
+
+/******************************************************************
+SEARCH FORM
+******************************************************************/
+#searchform{
+		.screen-reader-text{
+			display:none;
+		}
+		.search-submit, #searchsubmit, {
+			background:$primary-color;
+			margin:0rem 0 0 1rem;
+			padding:0.62rem;
+			// border:none;
+			color:$body-font-color;
+			font-size: 0.9rem;
+			text-transform: uppercase;
+		font-family: $copse;
+
+		border-top: 1px double white;
+		border-bottom: 1px double white;
+		border-left:none;
+		border-right:none;
+		text-align: center;
+		transition: background-color 0.5s ease;
+		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
+		box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
+		&:hover{
+		border: 1px double $primary-color;
+		background:darken($primary-color, 20%);
+		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px darken($primary-color,40%);
+		color:$body-font-color;
+	}
+		}
+	}
+
+
+
+/******************************************************************
+CONTACT FORM and NEWSLETTER
+******************************************************************/
+.wpcf7-submit{
+	background:$primary-color;
+			margin:0rem 0 0 1rem;
+			padding:0.62rem;
+			// border:none;
+			color:$body-font-color;
+			font-size: 0.9rem;
+
+			text-transform: uppercase;
+		font-family: $copse;
+
+		border-top: 1px double white;
+		border-bottom: 1px double white;
+		border-right: 1px double white;
+		// padding: 0.5rem 0 0.3rem 0;
+		text-align: center;
+		transition: background-color 0.5s ease;
+		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
+		box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
+		&:hover{
+		border: 1px double $primary-color;
+		background:darken($primary-color, 20%);
+		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px darken($primary-color,40%);
+		color:$body-font-color;
+	}
+}
+.newsletter{
+		.screen-reader-text{
+			display:none;
+		}
+		.search-submit, #searchsubmit, {
+			background:$primary-color;
+			padding:0.62rem;
+			color:$body-font-color;
+			font-size: 0.9rem;
+			text-transform: uppercase;
+			font-family: $copse;
+			border-top: 1px double white;
+			border-bottom: 1px double white;
+			border-left:none;
+			border-right:none;
+			text-align: center;
+			transition: background-color 0.5s ease;
+			box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
+			&:hover{
+				border: 1px double $primary-color;
+				background:darken($primary-color, 20%);
+				box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px darken($primary-color,40%);
+				color:$body-font-color;
+			}
+		}
+}
+
+/******************************************************************
+COMMENTS
+******************************************************************/
+#comments .submit{
+	width:250px;
+	margin:0 auto;
+	padding: 0.3rem;
+	background:$primary-color;
+	border-top: 1px double white;
+	border-bottom: 1px double white;
+	border-left:none;
+	border-right:none;
+	transition: background-color 0.5s ease;
+	box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color,20%);
+	cursor:pointer;
+	text-align: center;
+
+	&:hover{
+		border: 1px double $primary-color;
+		background:darken($primary-color, 20%);
+		box-shadow: 0 0 0 4px darken($primary-color, 20%), 1px 1px 1px 1px darken($primary-color,40%);
+		color:$body-font-color;
+	}
+	a{
+		color: $body-font-color;
+		text-transform:uppercase;
+		font-family: $copse;
+		&:hover{
+			color: $body-font-color;
+		}
+	}
+}
 /******************************************************************
 SIDEBAR
 ******************************************************************/
 #sidebar{
 	p, a, li{
 		font-size:0.85rem;
+		list-style:none;
+		color:$body-font-color;
 	}
 	h3{font-size:1.1rem;}
 	.widget{
 		margin-bottom:2rem;
 		padding: 1rem;
 		border: 1px solid $primary-color;
+		text-align:center;
 	}
 	.widget-title{
 		text-transform: uppercase;
+		font-family: $copse;
 		background: $primary-color;
 		border-top: 1px double white;
 		border-bottom: 1px double white;
@@ -206,63 +512,57 @@ SIDEBAR
 		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
 		box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
 	}
-	#searchform{
-		input#s{@include grid-column(11);}
-		.screen-reader-text{
-			display:none;
-		}
-		.search-submit, #searchsubmit, {
-			background:$primary-color;
-			margin:-0.01rem 0;
-			padding:0.62rem;
-			border:none;
-			color:white;
-			font-size: 0.9rem;
-			// @include grid-column(5);
-		}
-	}
-}
+
 #sidebar .jetpack-display-remote-posts {
 	h4 a{font-size:1.3rem;}
 	.read_more{margin:0.5rem 0 1rem 0;}
 	}
 #sidebar .postauthor{min-height:225px;}
 #sidebar .author_image {padding-left:0 !important; }
+}
+
+#sidebar .search-submit{
+
+}
+
 /******************************************************************
 FOOTER
 ******************************************************************/
 #footer_wrap{
-	font-size:1rem;
+		p, a, li{
+		font-size:1rem;
+		list-style:none;
+		color:$body-font-color;
+	}
+	h3{font-size:1.1rem;}
 }
 #footer_widgets{
-	background: $primary-color;
+	// background: $primary-color;
 	padding: 1rem 0;
 	.widget-title{
-
-		font-size:1.2rem;
 		text-transform: uppercase;
-		background: white;
-		// border:1px solid darken($primary-color,20%);
-		border-top: 1px double $primary-color;
-		border-bottom: 1px double $primary-color;
+		font-family: $copse;
+		background: $primary-color;
+		border-top: 1px double white;
+		border-bottom: 1px double white;
 		color:$body-font-color-grey;
 		padding: 0.5rem 0 0.3rem 0;
 		text-align: center;
 		transition: background-color 0.5s ease;
-		box-shadow: 0 0 0 4px white, 1px 1px 1px 1px darken($primary-color, 20%);
-
-		// border-top: 1px double white;
-		// border-bottom: 1px double white;
+		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
+		box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
 	}
 	a{
 		// color:white;
 	}
+	ul, li{
+		list-style:none;
+	}
 }
 
 #footer_meta{
-	//background: darken($primary-color, 20%);
 	padding:2rem 0 0 0;
-	//color:white;
+	background: $primary-color;
 	a{
 		color:$body-font-color;
 	}
