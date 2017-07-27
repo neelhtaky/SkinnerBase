@@ -35,6 +35,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+
+	<script src="<?php bloginfo('template_directory'); ?>/bower_components/masonry/dist/masonry.pkgd.min.js"></script>
     <?php wp_head(); ?>
   </head>
 

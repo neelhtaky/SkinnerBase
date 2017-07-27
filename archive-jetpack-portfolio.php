@@ -1,5 +1,13 @@
 <?php get_header(); ?>
-
+<script type="text/javascript">
+	// initialize Isotope after all images have loaded
+	var $container = $('#container').imagesLoaded( function() {
+	  	$container.isotope({
+	    	// options
+	    	itemSelector: '.item'
+	  	});
+	});
+</script>
 
 <h1>Portfolio</h1>
 
@@ -7,10 +15,10 @@
 
 
  <!-- Start the Loop. -->
-<div class="grid-x">
+<div class="grid-x grid-pading-x js-isotope grid" data-masonry='{ "itemSelector": ".grid-item"}'>
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<article <?php post_class("sticky entries item portfolio_item small-6 large-4 cell"); ?> id="post-<?php the_ID(); ?>" role="article">
+	<article <?php post_class("sticky entries item portfolio_item archive_portfolio grid-item small-6 large-4 cell"); ?> id="post-<?php the_ID(); ?>" role="article">
 
 				<?php if (has_post_thumbnail( )): ?>
 
