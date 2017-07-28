@@ -107,7 +107,7 @@ add_filter( 'get_the_excerpt', 'bac_wp_strip_header_tags_keep_other_formatting',
  */
 function new_excerpt_more($more) {
   global $post;
-  return '... <div class="read_more"><a href="'. get_permalink($post->ID) . '" rel="bookmark">Read More</a></div>';
+  return '... <div class="read_more"><a href="'.get_permalink($post->ID).'" rel="bookmark nofollow">Read More</a></div>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 /******************************************************************
