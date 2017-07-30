@@ -8024,10 +8024,34 @@
 		"oAP": "\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-Italic.ttf",
 		"oF": 0
 		},
+	"\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-Medium.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-MediumItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-MediumItalic.ttf",
+		"oF": 0
+		},
 	"\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-Regular.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-SemiBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-SemiBoldItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/archivonarrow\/ArchivoNarrow-SemiBoldItalic.ttf",
 		"oF": 0
 		},
 	"\/bower_components\/google-fonts\/ofl\/archivonarrow\/DESCRIPTION.en_us.html": {
@@ -12598,9 +12622,9 @@
 		},
 	"\/bower_components\/google-fonts\/ofl\/copse\/Copse-Regular.ttf": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/bower_components\/google-fonts\/ofl\/copse\/Copse-Regular.ttf",
-		"oF": 0
+		"oF": 3
 		},
 	"\/bower_components\/google-fonts\/ofl\/copse\/DESCRIPTION.en_us.html": {
 		"ft": 8192,
@@ -22880,6 +22904,18 @@
 		"oAP": "\/bower_components\/google-fonts\/ofl\/mada\/Mada-Black.ttf",
 		"oF": 0
 		},
+	"\/bower_components\/google-fonts\/ofl\/mada\/Mada-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/mada\/Mada-Bold.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/mada\/Mada-ExtraLight.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/mada\/Mada-ExtraLight.ttf",
+		"oF": 0
+		},
 	"\/bower_components\/google-fonts\/ofl\/mada\/Mada-Light.ttf": {
 		"ft": 8192,
 		"oA": 2,
@@ -22896,6 +22932,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/google-fonts\/ofl\/mada\/Mada-Regular.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/mada\/Mada-SemiBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/mada\/Mada-SemiBold.ttf",
 		"oF": 0
 		},
 	"\/bower_components\/google-fonts\/ofl\/mada\/METADATA.pb": {
@@ -28424,10 +28466,10 @@
 		"oAP": "\/bower_components\/google-fonts\/ofl\/paytoneone\/OFL.txt",
 		"oF": 0
 		},
-	"\/bower_components\/google-fonts\/ofl\/paytoneone\/PaytoneOne.ttf": {
+	"\/bower_components\/google-fonts\/ofl\/paytoneone\/PaytoneOne-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bower_components\/google-fonts\/ofl\/paytoneone\/PaytoneOne.ttf",
+		"oAP": "\/bower_components\/google-fonts\/ofl\/paytoneone\/PaytoneOne-Regular.ttf",
 		"oF": 0
 		},
 	"\/bower_components\/google-fonts\/ofl\/pecita\/DESCRIPTION.en_us.html": {
@@ -37880,6 +37922,36 @@
 		"oAP": "\/bower_components\/google-fonts\/ofl\/zillaslab\/ZillaSlab-SemiBoldItalic.ttf",
 		"oF": 0
 		},
+	"\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/DESCRIPTION.en_us.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/DESCRIPTION.en_us.html",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/METADATA.pb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/METADATA.pb",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/OFL.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/OFL.txt",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/ZillaSlabHighlight-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/ZillaSlabHighlight-Bold.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/ZillaSlabHighlight-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/google-fonts\/ofl\/zillaslabhighlight\/ZillaSlabHighlight-Regular.ttf",
+		"oF": 0
+		},
 	"\/bower_components\/google-fonts\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -41136,7 +41208,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
@@ -41145,6 +41217,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/front-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/front-page.php",
 		"oF": 0
 		},
 	"\/functions.php": {
@@ -41158,6 +41236,71 @@
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
+		},
+	"\/header1.jpg": {
+		"ft": 16384,
+		"iS": 136806,
+		"oA": 0,
+		"oAP": "\/header1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/header1.png": {
+		"ft": 32768,
+		"iS": 1155880,
+		"oA": 0,
+		"oAP": "\/header1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/header2.png": {
+		"ft": 32768,
+		"iS": 783108,
+		"oA": 0,
+		"oAP": "\/header2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/header3.png": {
+		"ft": 32768,
+		"iS": 362530,
+		"oA": 0,
+		"oAP": "\/header3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/header4.png": {
+		"ft": 32768,
+		"iS": 755298,
+		"oA": 0,
+		"oAP": "\/header4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/header5.png": {
+		"ft": 32768,
+		"iS": 486631,
+		"oA": 0,
+		"oAP": "\/header5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -41175,7 +41318,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "js\/min\/app-min.js",
+		"oAP": "\/js\/app-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 1
@@ -41183,7 +41326,7 @@
 	"\/js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -41191,7 +41334,7 @@
 		},
 	"\/js\/min\/app-min.js.map": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/js\/min\/app-min.js.map",
 		"oF": 0
 		},
@@ -41199,7 +41342,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/package-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -41261,13 +41404,13 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "css\/app.css",
+		"oAP": "\/scss\/app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -41308,22 +41451,22 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/SublimeProject.sublime-project": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/SublimeProject.sublime-project",
-		"oF": 0
+		"oF": 1
 		},
 	"\/SublimeProject.sublime-workspace": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/SublimeProject.sublime-workspace",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -41334,7 +41477,8 @@
 	"creationDate": 522088294,
 	"displayValue": "SkinnerBase",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_orange"
+	"iconImageName": "brackets_orange",
+	"lastBuiltDate": 522937044
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

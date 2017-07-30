@@ -1,9 +1,15 @@
 </div><!-- grid-x grid-padding-x -->
+</div>
 
 
 <footer id="footer_wrap">
-    <div id="footer_widgets" >
+<?php
+ if (is_front_page()) {
+
+ } else { ?>
+ <div id="footer_widgets" >
         <ul class="no-bullet grid-x grid-padding-x">
+
           <?php if ( is_active_sidebar( 'footer' ) ) : ?>
             <?php dynamic_sidebar( 'footer' ); ?>
           <?php else : ?>
@@ -11,8 +17,14 @@
               <p>Please activate some Widgets.</p>
             </div>
           <?php endif; ?>
+
         </ul>
     </div><!-- footer_widgets -->
+<?php }
+ ?>
+<div class="grid-container">
+
+    </div>
 
     <div id="footer_meta" class="grid-x grid-padding-x" >
         <div id="copyright" class="small-12 large-5 cell">

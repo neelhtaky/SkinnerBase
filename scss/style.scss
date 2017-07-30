@@ -25,11 +25,11 @@ a{
 	}
 h2{
 	// text-align: center;
-	text-transform: uppercase;
-	font-size:1.9rem;
-	letter-spacing: 0px;
-    line-height: 1.4;
-    text-transform: uppercase;
+	// text-transform: uppercase;
+	// font-size:1.9rem;
+	// letter-spacing: 0px;
+ //    line-height: 1.4;
+ //    text-transform: uppercase;
 }
 p{
 
@@ -105,16 +105,20 @@ span.course-category, span.posted_in{
 }
 
 
-
-
 /******************************************************************
 HEADER
 ******************************************************************/
+
+
+
+
+
 #header_area{padding-bottom:2rem;}
 .header_menu{
 	ul{
 		list-style:none;
 		li{
+			font-family: $copse;
 			float:left;
 			margin-top: 1.2rem;
 			margin-right:1rem;
@@ -137,6 +141,70 @@ HEADER
 	font-family: $greatvibes;
 	color: $body-font-color-grey;
 	font-size: 4rem;
+}
+/******************************************************************
+FRONT PAGE
+******************************************************************/
+.artist_quote p{
+	font-family: $ebgaramond;
+	font-size:4rem;
+	padding:3rem;
+	text-align:center;
+
+}
+.front_parallax {
+	height:370px;
+
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+background-size: 100%;
+	 background-position: 0% 0%;
+	  background-image: url('header1.jpg');
+}
+.front_call{
+	padding: 3rem 5rem 3rem 5rem;
+	background:$primary-color;
+	border-top: 1px double white;
+	border-bottom: 1px double white;
+	transition: background-color 0.5s ease;
+	box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color,20%);
+	cursor:pointer;
+	text-align: center;
+	h2{
+		padding:1rem;
+		text-transform: capitalize !important;
+		font-family: $ebgaramond;
+		// background: $primary-color;
+		// border-top: 1px double white;
+		// border-bottom: 1px double white;
+		// color:$body-font-color-grey;
+		// padding: 0.5rem 0 0.3rem 0;
+		text-align: center;
+		// transition: background-color 0.5s ease;
+		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
+		// box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
+	}
+	a {
+		display:relative;
+		height:100%;
+	}
+
+}
+.front_body{
+	margin-top:4rem;
+
+	h3{
+		font-size:3em;
+		text-align:center;
+		margin-bottom:1rem;
+
+	}
+	h4 a{
+	color:$body-font-color;
+}
+}
+.front_entries{
+	padding-bottom:4rem;
 }
 
 /******************************************************************
@@ -437,7 +505,7 @@ FOOTER
 			}
 
 		}
-		li.current-menu-item a, li.current_page_item a {color:$primary-color; font-style:italic;}
+		li.current-menu-item a, li.current_page_item a {}
 	}
 }
 
@@ -594,4 +662,21 @@ figure.gallery-item:hover .wp-caption-text, figure:hover .wp-caption-text {
 
 .archive_portfolio{
 	padding: 0.2rem 0 0 0;
+}
+
+.single_content{
+	h2{
+		margin-top:3rem;
+		text-transform: capitalize !important;
+		font-family: $ebgaramond;
+		background: $primary-color;
+		border-top: 1px double white;
+		border-bottom: 1px double white;
+		color:$body-font-color-grey;
+		padding: 0.5rem 0 0.3rem 0;
+		text-align: center;
+		transition: background-color 0.5s ease;
+		// box-shadow: 0 0 0 4px lighten($secondary-color,10%), 1px 1px 1px 1px grey;
+		box-shadow: 0 0 0 4px $primary-color, 1px 1px 1px 1px darken($primary-color, 20%);
+	}
 }

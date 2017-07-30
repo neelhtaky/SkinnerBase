@@ -4,7 +4,7 @@ ADD THEME SUPPORT
 ***************************************************************/
 /* set content width support for jetpack */
 if ( ! isset( $content_width ) )
-    $content_width = 1121;
+    $content_width = 900;
 if(function_exists('add_theme_support')) {
     add_theme_support( 'post-thumbnails' );
     add_theme_support('automatic-feed-links');

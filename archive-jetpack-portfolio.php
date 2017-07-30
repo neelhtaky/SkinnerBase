@@ -15,10 +15,10 @@
 
 
  <!-- Start the Loop. -->
-<div class="grid-x grid-pading-x js-isotope grid" data-masonry='{ "itemSelector": ".grid-item"}'>
+<div class="grid-x grid-margin-x js-isotope grid" data-masonry='{ "itemSelector": ".grid-item"}'>
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<article <?php post_class("sticky entries item portfolio_item archive_portfolio grid-item small-6 large-4 cell"); ?> id="post-<?php the_ID(); ?>" role="article">
+	<article <?php post_class("sticky entries item portfolio_item archive_portfolio grid-item small-12 medium-12 large-6 cell"); ?> id="post-<?php the_ID(); ?>" role="article">
 
 				<?php if (has_post_thumbnail( )): ?>
 
